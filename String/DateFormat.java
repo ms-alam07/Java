@@ -1,6 +1,5 @@
 // Write a program to find the date in date format(dd/mm/yyyy).
 
-
 import java.util.*;
 public class DateFormat {
     public static void main(String[] args) {
