@@ -1,8 +1,9 @@
 // Write a program to print the following pattern.
-//    *
-//   * *
-//  * * *
-// * * * * 
+//     *
+//    * *
+//   * * *
+//  * * * *
+// * * * * * 
 
 
 public class PyramidWithSpace {
@@ -13,7 +14,7 @@ public class PyramidWithSpace {
                 System.out.print(" ");
             }
             for(int k=1;k<=i;k++){
-                System.out.print(" *");
+                System.out.print("* ");
             }
             System.out.println();
         }
