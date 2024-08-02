@@ -1,4 +1,14 @@
 // Write a program to print the following Pattern.
+// *        *
+// **      **
+// ***    ***
+// ****  ****
+// **********
+// **********
+// ****  ****
+// ***    ***
+// **      **
+// *        *
 
 public class Butterfly {
     
