@@ -15,7 +15,7 @@ public class Butterfly {
             for (int j = 1; j  <= 2 * (n - i); j++) {
                 System.out.print(" ");
             }
-            // Print right half of the row
+            // Print right half of the rowM
             for (int j = 1; j  <= i; j++) {
                 System.out.print("*");
             }
