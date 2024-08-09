@@ -1,7 +1,7 @@
 // Write a program to find the palindrome of a number.
 
 import java.util.*;
-public class Palindrome {
+public class Palindrome{
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
