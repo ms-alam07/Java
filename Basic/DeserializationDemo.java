@@ -6,7 +6,7 @@ public class DeserializationDemo {
         try {
             FileInputStream fis = new FileInputStream("C:\\Users\\Saquib\\Desktop\\Projects\\Lang\\Java Basics\\Basic\\file.ser");
             ObjectInputStream ois = new  ObjectInputStream(fis);
-            SerializationDemo sd = (SerializationDemo)ois.readObject(); // Here child object is used
+            SerializationDemo sd = (SerializationDemo)ois.readObject(); // Here child object is used   {A a1 = (A)ois.readObject();}
             fis.close();
             ois.close();
             System.out.println(sd.name);
