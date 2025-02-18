@@ -4,8 +4,8 @@ public class CompareStringLexographically {
     
     public static void main(String[] args) {
         
-        String s1 ="This is String 1";
-        String s2 ="This is String 2";
+        String s1 ="This is String 2";
+        String s2 ="This is String 1";
 
         int ans = s1.compareTo(s2);
 

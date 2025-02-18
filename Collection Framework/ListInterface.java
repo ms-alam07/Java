@@ -7,9 +7,9 @@ public class ListInterface{
         // creating object of list interface
         // implementing ArrayList class
         
-        List<Integer> a1= new  ArrayList<Integer>();
-        List<Integer> al1 = new ArrayList<>(List.of(10,20,30,40,50)); // another way
-        System.out.println("Elements in List al1 are: "+al1);
+        List<Integer> a1 = new ArrayList<>(Arrays.asList(10, 20, 30, 40, 50));
+        // List<Integer> al1 = new ArrayList<>(List.of()); // another way
+        System.out.println("Elements in List al1 are: "+a1);
 
         a1.add(0,1); // adding element to  object of list interface
         a1.add(1,2);
